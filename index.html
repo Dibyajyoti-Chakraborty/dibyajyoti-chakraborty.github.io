@@ -17,29 +17,51 @@
             padding: 20px;
             text-align: center;
         }
-        h1 {
-            margin: 0;
-            font-size: 36px;
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
         }
-        p {
-            font-size: 18px;
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
             margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Dibyajyoti Chakraborty</h1>
+        <h1>Welcome to Dibyajyoti Chakraborty's Website</h1>
     </header>
-    <section>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+    </nav>
+    
+    <section id="about">
         <h2>About Me</h2>
-        <p>My name is Dibyajyoti Chakraborty. I am currently pursuing a PhD at Penn State University in the College of Information Science and Technology. I completed my master's degree at IIT Bombay</p>
+        <p>I am Dibyajyoti Chakraborty. I am currently pursuing a PhD in the College of Information Science and Technology, Penn State University. I have completed my master's from the Indian Institute of Technology Bombay.</p>
     </section>
-    <section>
-        <h2>Contact Me</h2>
-        <p>Email: your.email@example.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile/">https://www.linkedin.com/in/dibyajyoti-chakraborty-296706164/</a></p>
+    
+    <section id="research">
+        <h2>Research</h2>
+        <p>My research is in Scientific Machine Learning. I am working on improving predictions for Dynamical Systems, such as climate, using deep learning techniques.</p>
     </section>
+    
+    <section id="publications">
+        <h2>Publications</h2>
+        <p>Chakraborty, Dibyajyoti, and Shivasubramanian Gopalakrishnan. "Computing Anti-Derivatives using Deep Neural Networks." arXiv preprint arXiv:2209.09084 (2022).</p>
+    </section>
+    
     <footer>
         <p>&copy; 2023 Dibyajyoti Chakraborty</p>
     </footer>
